@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Poppins',sans-serif;
+}
+
+.logo img{
+  width: 150px;
+}
+
+.navbar{
+  display: flex;
+  align-items: center;
+}
+
+nav{
+  text-align: right;
+  flex: 1;
+}
+
+nav ul{
+  display: inline-block;
+  list-style: none;
+}
+
+nav ul li{
+  display: inline-block;
+  padding: 0 20px;
+}
+
+a{
+  text-decoration: none;
+  color:#555;
+}
+
+p{
+  color: #555;
+}
+
+.container{
+  padding-top: 10px;
+  max-width: 1300px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.row{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.col-2{
+  flex-basis: 50%;
+  min-width: 300px;
+}
+
+.col-2 img{
+  max-width: 100%;
+  padding: 50px 0;
+}
+
+.col-2 .btn{
+  /* width: 100px; */
+  margin: 30px 0;
+  padding: 8px 25px;
+  /* height: 40px; */
+  /* font-size: 15px; */
+  font-weight: bold;
+  /* padding: 10px; */
+  border-radius: 50px;
+  border: none;
+  background-color: #FF6347;
+  color: white;
+  cursor: pointer;
+  transition: background 0.5s;
+}
+
+.col-2 .btn:hover{
+  background-color: #FF4500;
+}
+
+.col-2 h1{
+  font-size: 50px;
+  line-height: 60px;
+  margin: 25px 0;
+}
+
+
+.header{
+  background: radial-gradient(#fff,#ffd6d6);
+}
+
+
+/* featured categories section */
+
+.categories{
+  margin: 70px;
+}
+
+.col-3{
+  flex-basis: 30%;
+  min-width: 250px;
+  margin-bottom: 30px;
+}
+
+.col-3 img{
+  width: 100%;
+}
+
+.small-container{
+  max-width: 1080px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.small-container .title{
+  margin: 20px 0;
+}
+
+.col-4{
+  flex-basis: 25%;
+  min-width: 250px;
+  padding: 10px;
+  margin-bottom: 30px;
+  transition: transform 0.5s;
+}
+
+.col-4 img{
+  width: 100%;
+}
+
+.col-4:hover{
+  transform: translateY(-5px);
+}
+
+i{
+  color:#ff523b
+}
+
+.title{
+  margin: 0 auto 80px;
+  text-align: center;
+  position: relative;
+  color: #555;
+  line-height: 60px;
+}
+
+.title::after{
+  content: '';
+  background: #ff523b;
+  width: 80px;
+  height: 5px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+.offer{
+  background: radial-gradient(#fff,#ffd6d6);
+  margin-top: 30px;
+}
+
+.col-2 .offer-img{
+  padding: 50px;
+}
+
+.col-2 small{
+  color: #555;
+}
+
+
+
+.testimonial{
+  margin-top: 60px; 
+}
+
+.testimonial .col-3{
+  text-align: center;
+  padding: 20px 30px;
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0,0.1);
+  transition: transform 0.5s;
+}
+
+.testimonial .col-3:hover{
+  transform: translateY(-10px);
+}
+
+.fa.fa-quote-left{
+  font-size: 30px;
+}
+
+.col-3 p{
+  font-size: 12px;
+  color:#777;
+}
+
+.col-3 h3{
+  color:#555;
+}
+
+.testimonial img{
+  border-radius: 50%;
+  margin: 30px 0;
+  width: 100px;
+}
+
+
+/* brands section */
+
+.brands{
+  margin: 100px 0px;
+}
+
+.col-5 img{
+  width: 100%;
+  cursor: pointer;
+  filter: grayscale(100%);
+}
+
+.col-5 img:hover{
+  filter: grayscale(0%);
+}
+
+.footer{
+  background-color: #000;
+  padding: 30px 60px;
+  color:#fff;
+}
+
+.footer ul{
+  list-style-type:none;
+}
+
+.footer h3{
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.footer-col-1{
+  flex-basis: 25%;
+}
+
+.footer-col-2{
+  text-align: center;
+  flex: 1;
+}
+
+
+.footer-col-1,.footer-col-2,.footer-col-3.footer-col-4{
+  margin-top: 30px;
+}
+
+.footer-col-3 ,.footer-col-4{
+  flex-basis: 15%;
+  text-align: left;
+  margin: 0 5px;
+}
+
+.footer-col-3 li ,.footer-col-4 li{
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+
+.app-logo{
+  margin-top: 20px;
+}
+
+.app-logo img{
+  width: 140px;
+}
+
+
+.menu_btn{
+  width: 35px;
+  margin-left: 20px;
+}
+
+
+/* -------------------  All Products Styling ------------------------ */
+
+.row-2{
+justify-content: space-between;
+margin: 100px auto 50px;
+}
+
+
+select{
+  border: 2px solid #ff523b;
+  padding: 5px;
+}
+
+select:focus{
+  outline: none;
+}
+
+
+.bottom-btn{
+margin: 20px 0;
+left: 0;
+}
+
+.bottom-btn span{
+  padding: 10px;
+  margin: 0 5px;
+  /* width: 50px; */
+  border: 2px solid #555;
+  cursor: pointer;
+
+}
+
+.bottom-btn span:hover{
+  background-color: #000;
+  color: #fff;
+}
+
+
+
+/* media query */
+
+@media only screen and (max-width:800px){
+  nav ul{
+    position: absolute;
+    top: 70px;
+    left: 0;
+    background-color: #000;
+    color: #fff;
+    display:grid;
+    padding: 20px;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
